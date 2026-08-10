@@ -138,9 +138,9 @@ export function DorinhaAuthorStore() {
       .db-about-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(290px,.65fr);gap:22px}
       .db-author-portrait-card{position:relative;min-height:420px;overflow:hidden;border-radius:18px;background:#36213f;box-shadow:0 24px 55px rgba(9,4,13,.28)}
       .db-author-portrait-card img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;object-position:center 25%}
-      .db-author-portrait-card figcaption{position:absolute;left:14px;right:14px;bottom:14px;padding:12px 14px;border:1px solid rgba(255,255,255,.16);border-radius:12px;background:rgba(25,13,30,.76);backdrop-filter:blur(12px);display:grid;color:white}
-      .db-author-portrait-card figcaption strong{font-family:Georgia,serif;font-size:17px}
-      .db-author-portrait-card figcaption span{margin-top:2px;color:#e6c889;font-size:9px;font-weight:850;letter-spacing:.11em}
+      .db-author-portrait-card figcaption{position:absolute;left:14px;right:14px;bottom:14px;padding:12px 14px;border:1px solid rgba(255,255,255,.25);border-radius:12px;background:rgba(18,7,24,.85);backdrop-filter:blur(12px);display:grid;color:white}
+      .db-author-portrait-card figcaption strong{font-family:Georgia,serif;font-size:17.5px;color:#ffffff}
+      .db-author-portrait-card figcaption span{margin-top:2px;color:#ffdfa1;font-size:9.5px;font-weight:900;letter-spacing:.12em}
       .db-contact-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:18px}
       #contato .db-contact-grid{padding-top:32px;padding-bottom:32px;align-items:center}
       #contato .db-contact-grid h2{font-size:clamp(1.75rem,3.2vw,2.45rem);max-width:620px}
