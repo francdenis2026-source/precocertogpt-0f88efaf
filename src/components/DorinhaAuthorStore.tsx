@@ -116,8 +116,8 @@ export function DorinhaAuthorStore() {
       .db-hero-grid{display:grid;grid-template-columns:minmax(0,.94fr) minmax(400px,1.06fr);gap:clamp(24px,4vw,54px);align-items:center}
       .db-hero-copy{position:relative;padding-left:22px}
       .db-hero-copy:before{content:"";position:absolute;left:0;top:4px;width:2px;height:88px;border-radius:9px;background:linear-gradient(#f4dba9,rgba(244,219,169,0));box-shadow:0 0 24px rgba(231,199,141,.28)}
-      .db-hero-title{font-size:clamp(2.85rem,5vw,4.45rem);line-height:.9;letter-spacing:-.06em;margin:11px 0 14px;max-width:680px;text-shadow:0 15px 44px rgba(0,0,0,.25)}
-      .db-hero-title em{font-style:normal;color:#e7c78d}
+      .db-hero-title{font-size:clamp(2.85rem,5vw,4.45rem);line-height:.9;letter-spacing:-.06em;margin:11px 0 14px;max-width:680px;text-shadow:0 15px 44px rgba(0,0,0,.45);color:#ffffff}
+      .db-hero-title em{font-style:normal;color:#ffdfa1;text-shadow:0 0 25px rgba(255,223,161,0.3)}
       .db-hero-art{position:relative;min-height:350px;display:grid;place-items:center;isolation:isolate}
       .db-cover-stage{position:relative;width:min(100%,550px);height:335px;perspective:1000px}
       .db-hero-cover{position:absolute;display:block;width:150px;height:228px;object-fit:contain;border-radius:3px 9px 9px 3px;filter:drop-shadow(0 22px 22px rgba(18,6,22,.52));transform-origin:50% 100%;transition:transform .45s cubic-bezier(0.34, 1.56, 0.64, 1),filter .45s ease}
