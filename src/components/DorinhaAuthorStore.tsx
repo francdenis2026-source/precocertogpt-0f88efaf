@@ -159,26 +159,39 @@ export function DorinhaAuthorStore() {
       .db-book-price strong{font-variant-numeric:tabular-nums}
       .db-action:hover{transform:translateY(-2px)}
       .db-book:hover{transform:translateY(-5px);box-shadow:0 22px 60px rgba(29,18,44,.12)}
-      @media(max-width:1050px){.db-hero-grid{grid-template-columns:minmax(0,1fr) minmax(330px,.82fr);gap:18px}.db-cover-stage{transform:scale(.85)}.db-book-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.db-about-grid,.db-contact-grid{grid-template-columns:1fr}.db-author-portrait-card{min-height:470px}.db-external-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-      @media(max-width:790px){.db-hero-grid{grid-template-columns:1fr}.db-hero-art{min-height:320px;margin-top:-24px}.db-cover-stage{height:330px;transform:scale(.78)}.db-stage-note{display:none}.db-hero-copy{text-align:center;padding:0 20px}.db-hero-copy:before{display:none}.db-hero-copy .db-hero-actions,.db-hero-copy [data-hero-badges],.db-hero-copy [data-hero-foot]{justify-content:center}}
+      @media(max-width:1050px){
+        .db-hero-grid{grid-template-columns:1fr;gap:32px;text-align:center}
+        .db-hero-copy{padding:0;display:flex;flex-direction:column;align-items:center}
+        .db-hero-copy:before{display:none}
+        .db-hero-art{min-height:380px}
+        .db-cover-stage{transform:scale(.9);margin:0 auto}
+        .db-book-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+        .db-about-grid,.db-contact-grid{grid-template-columns:1fr;gap:40px}
+        .db-author-portrait-card{min-height:500px;max-width:500px;margin:0 auto}
+        .db-external-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      }
+      @media(max-width:790px){
+        .db-hero-art{min-height:340px;margin-top:-20px}
+        .db-cover-stage{height:320px;transform:scale(.8)}
+        .db-stage-note{display:none}
+        .db-hero-copy .db-hero-actions,.db-hero-copy [data-hero-badges],.db-hero-copy [data-hero-foot]{justify-content:center}
+      }
       @media(max-width:640px){
         .db-book-grid,.db-external-grid{grid-template-columns:1fr;gap:24px}
         .db-hero-title{font-size:clamp(2.55rem,14vw,3.65rem);line-height:1.1;margin-bottom:20px}
         .db-top-label,.db-icon-label{display:none}
-        .db-hero-actions{display:flex!important;flex-direction:column;gap:12px;width:100%}
+        .db-hero-actions{display:flex!important;flex-direction:column;gap:12px;width:100%;max-width:320px}
         .db-hero-actions>*{width:100%;justify-content:center;padding:14px!important}
-        .db-section{padding:40px 20px!important}
-        .db-contact-actions{display:flex!important;flex-direction:column;gap:12px}
+        .db-section{padding:48px 20px!important}
+        .db-contact-actions{display:flex!important;flex-direction:column;gap:12px;width:100%;max-width:320px;margin:0 auto}
         .db-contact-actions>*{width:100%;justify-content:center;padding:14px!important}
-        .db-hero-art{min-height:280px;margin-top:-20px}
+        .db-hero-art{min-height:280px;margin-top:-10px}
         .db-cover-stage{height:280px;transform:scale(.65)}
         .db-about-facts{grid-template-columns:1fr!important;gap:16px}
         .db-author-portrait-card{min-height:420px}
         .db-section-head{align-items:center!important;text-align:center;margin-bottom:32px}
         .db-section-head h2{font-size:1.85rem}
         .db-catalog-count{display:none!important}
-        .db-about-grid{gap:32px}
-        .db-contact-grid{gap:32px}
         .db-footer{grid-template-columns:1fr;text-align:center;gap:32px}
         .db-footer > div{justify-content:center}
       }
