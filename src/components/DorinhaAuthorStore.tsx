@@ -130,10 +130,10 @@ export function DorinhaAuthorStore() {
       .db-cover-stage:hover .db-hero-cover:nth-child(3){transform:rotateY(18deg) rotateZ(6deg) translateY(-18px) scale(1.08)}
       .db-cover-stage:hover .db-hero-cover:nth-child(4){transform:rotateY(30deg) rotateZ(15deg) translate(10px,7px) scale(1.05)}
       .db-stage-glow{position:absolute;left:8%;right:5%;bottom:2%;height:35%;border-radius:50%;background:radial-gradient(ellipse,rgba(238,202,128,.42),transparent 69%);filter:blur(22px);z-index:-1}
-      .db-stage-note{position:absolute;right:2%;top:10px;max-width:178px;padding:11px 13px;border:1px solid rgba(255,255,255,.25);border-radius:14px;background:rgba(36,17,42,.68);backdrop-filter:blur(16px);color:#f2e8ef;font-size:10px;line-height:1.45;box-shadow:0 14px 36px rgba(0,0,0,.24)}
-      .db-stage-note b{display:block;color:#f0d398;font-size:11px;margin-bottom:3px}
-      .db-top-label a{color:inherit;text-decoration:none;transition:color .18s ease}
-      .db-top-label a:hover{color:#35233f}
+      .db-stage-note{position:absolute;right:2%;top:10px;max-width:178px;padding:11px 13px;border:1px solid rgba(255,255,255,.35);border-radius:14px;background:rgba(30,12,38,.85);backdrop-filter:blur(16px);color:#ffffff;font-size:10.5px;line-height:1.45;box-shadow:0 14px 36px rgba(0,0,0,.4)}
+      .db-stage-note b{display:block;color:#ffe0a3;font-size:11.5px;margin-bottom:3px;font-weight:900}
+      .db-top-label a{color:#4a3b57;text-decoration:none;transition:color .18s ease;font-weight:800}
+      .db-top-label a:hover{color:#1a0f24}
       .db-book-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px}
       .db-about-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(290px,.65fr);gap:22px}
       .db-author-portrait-card{position:relative;min-height:420px;overflow:hidden;border-radius:18px;background:#36213f;box-shadow:0 24px 55px rgba(9,4,13,.28)}
