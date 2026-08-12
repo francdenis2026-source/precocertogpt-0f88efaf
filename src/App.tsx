@@ -9,7 +9,6 @@ import { PublicCatalogUxFixes } from "./components/PublicCatalogUxFixes";
 import { PublicOnlineSalesAvailability } from "./components/PublicOnlineSalesAvailability";
 import { HeaderStickyUx } from "./components/HeaderStickyUx";
 import { HomeExperienceRefactor } from "./components/HomeExperienceRefactor";
-import { HomeMobilePolish } from "./components/HomeMobilePolish";
 import { HomeSearchPortalPolish } from "./components/HomeSearchPortalPolish";
 import { HomeSearchKeyboardUx } from "./components/HomeSearchKeyboardUx";
 import { FooterCompactUx } from "./components/FooterCompactUx";
@@ -56,7 +55,6 @@ export default function App() {
       <PublicOnlineSalesAvailability />
       <HeaderStickyUx />
       <HomeExperienceRefactor />
-      <HomeMobilePolish />
       <HomeSearchPortalPolish />
       <HomeSearchKeyboardUx />
       <FooterCompactUx />
